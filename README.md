@@ -37,3 +37,13 @@ Workspace asset: `dist/assets/hero.png`.
 Generated with the built-in imagegen tool. Prompt:
 
 > Use case: illustration-story. Asset type: Mahabbati website lower hero illustration, landscape 1536x1024. An elegant minimal editorial outline illustration of a modest Muslim man in baju koko standing on the left and a woman in a flowing hijab standing on the right, standing apart beside a delicate floral garden arch. A small winding path leads toward the arch, with flowering fine botanical stems along the bottom. Near-white pale lavender background, airy and open. Flat 2D hand-drawn continuous thin purple #45445E line art, very sparse pastel lavender #C9CFF2 fills and warm cream accents. Landscape composition, arch in the center, two people at left and right, fine botanical garden details near bottom, ample negative space. Professional, calm, trustworthy visual for a Muslim marriage website. Exactly one image. Minimal faces without facial detail. No 3D, no lettering, no text, no watermark. Keep the illustration delicate, sparse, and refined.
+
+## Motion update
+
+- Gentle 750ms hero entrance, 650ms once-only scroll reveals, and short staggered delays.
+- FAQ answer fade, mobile menu entrance, and subtle pointer-only hover feedback.
+- Native scrolling is preserved. No looping motion or scroll interception.
+- Respects reduced motion at load and when the operating-system preference changes; keyboard focus finishes active reveals immediately.
+- Content remains visible if animation APIs are unavailable. Observers and event listeners are cleaned up on language changes.
+- Browser verification passed for entrance/reveal timing, no repeat reveals, reduced motion, live preference changes, menu and language interactions, and responsive widths 320–1440px in both languages.
+- Sites label changed to `mahabbati`; the returned URL retains the workspace namespace: https://mahabbati.ridwan-22693.chatgpt.site.

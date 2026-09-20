@@ -2,8 +2,10 @@ const icons={arrow:'<path d="M5 12h14m-5-5 5 5-5 5"/>',shield:'<path d="M12 3 4 
 const ico=n=>`<svg class="icon" aria-hidden="true" viewBox="0 0 24 24">${icons[n]||icons.arrow}</svg>`;
 const copy={id:{skip:'Langsung ke konten',nav:['Tentang','Cara Ta’aruf','Aplikasi','Wedding'],start:'Mulai Ta’aruf',menu:'Buka menu',badge:'NIAT BAIK, CARA YANG BAIK',hero:'Langkah baik,<br>menuju <em>janji suci.</em>',heroP:'Setiap perjalanan punya awal yang berarti. Temukan pasangan hidup melalui ta’aruf yang terarah, dengan nilai Islam di setiap langkah.',how:'Kenali prosesnya',note:'Jaga adab. Jaga privasi. Mantapkan hati.',caption:'Berawal dari niat, bertumbuh dalam kebaikan',trust:['Berlandaskan nilai Islam','Identitas terverifikasi','Privasi jadi prioritas'],aboutEye:'MENGENAL MAHABBATI',aboutTitle:'Bukan sekadar bertemu.<br>Menemukan tujuan yang sama.',aboutP:'Kami percaya bahwa niat yang tulus layak ditemani proses yang baik. Mahabbati hadir sebagai ruang untuk saling mengenal, mempersiapkan diri, dan melangkah menuju pernikahan.',features:[['Identitas yang jelas','Kenali calon pasangan melalui profil yang melalui proses verifikasi. Mulai dengan rasa lebih tenang.'],['Kendali atas privasi','Foto pribadi tidak tampil di profil publik. Kamu menentukan persetujuan aksesnya.'],['Ikhtiar yang terarah','Dari perkenalan hingga pertemuan bersama wali, jalani setiap tahap dengan tujuan yang jelas.']],processEye:'SATU NIAT, SELANGKAH DEMI SELANGKAH',processTitle:'Jalan yang baik untuk saling mengenal.',processP:'Tidak perlu terburu-buru. Pahami prosesnya, siapkan dirimu, dan jalani setiap langkah dengan sungguh-sungguh.',steps:[['Buat akun','Awali dengan mendaftar dan mengenal Mahabbati.'],['Lengkapi profil','Ceritakan dirimu dan selesaikan verifikasi.'],['Ajukan ta’aruf','Temukan kecocokan dan mulai perkenalan.'],['Nadzhor','Bertemu dengan pendampingan wali atau mahram.'],['Khitbah','Satukan niat dan libatkan kedua keluarga.'],['Walimah','Rayakan awal perjalanan rumah tangga.']],processCta:'Mulai langkah pertamamu',appEye:'MAHABBATI, DALAM GENGGAMAN',appTitle:'Ikhtiar lebih mudah.<br>Tujuan tetap sama.',appP:'Ruang untuk mengenal, belajar, dan mempersiapkan pernikahan. Temani perjalananmu lewat aplikasi Mahabbati.',benefits:['Eksplorasi profil dan lengkapi biodata bertahap','Cari calon sesuai kriteria dengan bantuan AI','Ikuti perkembangan proses ta’arufmu','Persiapkan diri lewat pembelajaran pranikah'],google:'TEMUKAN DI',web:'Buka aplikasi web',appAlt:'Tampilan aplikasi Mahabbati: eksplorasi kandidat dan detail proses ta’aruf',weddingEye:'MAHABBATI WEDDING',weddingTitle:'Dari niat yang tulus,<br>ke hari yang istimewa.',weddingP:'Saat hati sudah mantap, kami membantu menyiapkan hari bahagiamu. Perencanaan yang rapi, pendampingan yang hangat, dan perayaan yang menjaga nilai Islam.',weddingServices:['Wedding planning','Intimate wedding','Full wedding package'],weddingCta:'Konsultasikan rencanamu',weddingArt:'Untuk janji seumur hidup.',weddingSub:'TERENCANA • BERMAKNA • PENUH CINTA',faqEye:'MARI KENALI LEBIH DEKAT',faqTitle:'Ada yang ingin<br>kamu tanyakan?',faqP:'Memulai perjalanan baru tentu membawa pertanyaan. Kami siap membantu.',contact:'Hubungi tim Mahabbati',faq:[['Apa itu Mahabbati?','Mahabbati adalah platform ta’aruf untuk Muslim dan Muslimah yang memiliki niat menikah. Selain aplikasi, tersedia layanan wedding organizer untuk mendampingi persiapan pernikahan.'],['Apakah saya bisa mulai secara gratis?','Ya. Mahabbati menyediakan akun gratis dengan batas penggunaan. Pilihan keanggotaan dan manfaatnya dapat kamu lihat di dalam aplikasi sebelum berlangganan.'],['Bagaimana foto dan identitas saya digunakan?','Identitas diperlukan untuk verifikasi. Foto tidak ditampilkan di profil publik; akses untuk calon pasangan memerlukan persetujuanmu. Baca Kebijakan Privasi untuk mengetahui ketentuan pengelolaan data.'],['Apakah proses nadzhor melibatkan wali?','Ya. Pihak perempuan didampingi wali atau mahram saat nadzhor. Waktu dan tempat pertemuan disepakati bersama sebelum proses dilanjutkan.'],['Apakah tersedia di iPhone?','Saat ini, tautan unduhan yang tersedia adalah Google Play untuk Android. Pengguna iPhone dapat membuka aplikasi web Mahabbati melalui browser.'],['Bisa menggunakan wedding organizer saja?','Kamu dapat menghubungi tim wedding Mahabbati untuk mendiskusikan kebutuhan acara, pilihan layanan, ketersediaan tanggal, dan penawaran terbaru.']],closingTitle:'Niat baikmu layak diperjuangkan.',closingP:'Tidak harus tahu seluruh jalannya sekarang. Mulai saja dari satu langkah yang baik.',footerP:'Menemani ikhtiar, menjaga niat.<br>Dari ta’aruf menuju janji suci.',explore:'Jelajahi',help:'Mari terhubung',location:'Temui kami',email:'Email Mahabbati',instagram:'Instagram',privacy:'Kebijakan Privasi',terms:'Ketentuan Layanan',rights:'Hak cipta dilindungi.',altHero:'Ilustrasi outline Muslim dan Muslimah di taman dengan gerbang bunga',brandHome:'Mahabbati — Beranda'},en:{skip:'Skip to content',nav:['About','The Process','Our App','Wedding'],start:'Begin Ta’aruf',menu:'Open menu',badge:'GOOD INTENTIONS, A THOUGHTFUL PATH',hero:'A thoughtful start.<br>A <em>lifelong promise.</em>',heroP:'Every meaningful journey begins with intention. Get to know a future spouse through a guided ta’aruf journey, with Islamic values at every step.',how:'Explore the process',note:'Respectful connections. Privacy. Clear intentions.',caption:'Rooted in intention, growing in goodness',trust:['Guided by Islamic values','Verified identities','Privacy comes first'],aboutEye:'MEET MAHABBATI',aboutTitle:'More than a meeting.<br>A shared intention.',aboutP:'We believe sincere intentions deserve a thoughtful process. Mahabbati gives you space to get to know someone, prepare yourself, and take meaningful steps toward marriage.',features:[['Know who you’re meeting','Discover potential partners through profiles that undergo identity verification. Begin with greater peace of mind.'],['Your privacy, your choice','Personal photos stay off public profiles. You decide whether to grant access.'],['A purposeful journey','From an introduction to meeting with a guardian, move through each stage with clear intentions.']],processEye:'ONE INTENTION, ONE STEP AT A TIME',processTitle:'A thoughtful way to get to know each other.',processP:'There is no need to rush. Understand the process, prepare yourself, and approach each step with sincerity.',steps:[['Create an account','Sign up and get to know Mahabbati.'],['Complete your profile','Introduce yourself and verify your identity.'],['Begin ta’aruf','Find common ground and start a conversation.'],['Nadzhor','Meet with a guardian or mahram present.'],['Khitbah','Share your commitment with both families.'],['Walimah','Celebrate the beginning of married life.']],processCta:'Take your first step',appEye:'MAHABBATI, WITH YOU',appTitle:'An easier journey.<br>The same intention.',appP:'A space to connect, learn, and prepare for marriage. Bring Mahabbati along on your journey.',benefits:['Explore profiles and complete your bio at your pace','Discover potential matches with AI-assisted search','Follow the progress of your ta’aruf journey','Prepare with premarital learning resources'],google:'GET IT ON',web:'Open the web app',appAlt:'Mahabbati app previews showing candidate discovery and ta’aruf progress in Indonesian',weddingEye:'MAHABBATI WEDDING',weddingTitle:'From sincere intentions<br>to a meaningful day.',weddingP:'When you are ready for the next chapter, we help plan your special day. Thoughtful organization, personal support, and a celebration that honors Islamic values.',weddingServices:['Wedding planning','Intimate wedding','Full wedding package'],weddingCta:'Let’s plan your wedding',weddingArt:'For a lifelong promise.',weddingSub:'THOUGHTFUL • MEANINGFUL • WITH LOVE',faqEye:'LET’S GET TO KNOW EACH OTHER',faqTitle:'A few things<br>you might wonder.',faqP:'A new journey brings questions. Our team is here to help.',contact:'Contact the Mahabbati team',faq:[['What is Mahabbati?','Mahabbati is a ta’aruf platform for Muslim men and women who intend to marry. Alongside the app, our wedding organizer service supports couples as they prepare for marriage.'],['Can I get started for free?','Yes. Mahabbati offers a free account with usage limits. You can review membership options and their benefits in the app before subscribing.'],['How are my photos and identity used?','Your identity is used for verification. Photos are not displayed on public profiles, and potential partners need your approval to view them. Please read the Privacy Policy for details on data handling.'],['Does nadzhor involve a guardian?','Yes. A guardian or mahram accompanies the woman during nadzhor. Both parties agree on the meeting time and place before proceeding.'],['Is Mahabbati available on iPhone?','The available download link is currently Google Play for Android. iPhone users can access the Mahabbati web app in their browser.'],['Can I book only the wedding service?','You can contact the Mahabbati wedding team to discuss your event, available services, dates, and current offers.']],closingTitle:'Good intentions deserve a first step.',closingP:'You don’t need to know the whole journey yet. Begin with one thoughtful step.',footerP:'Supporting your journey, honoring your intention.<br>From ta’aruf to a lifelong promise.',explore:'Explore',help:'Get in touch',location:'Find us',email:'Email Mahabbati',instagram:'Instagram',privacy:'Privacy Policy',terms:'Terms of Service',rights:'All rights reserved.',altHero:'Outline illustration of a Muslim man and woman beside a floral garden arch',brandHome:'Mahabbati — Home'}};
 let lang='id';
+let disposeMotion = () => {};
+let hasRendered = false;
 const appUrl='https://app.mahabbati.com/';
-function render(){const t=copy[lang];document.documentElement.lang=lang;document.title=lang==='id'?'Mahabbati — Langkah baik, menuju janji suci':'Mahabbati — A thoughtful start, a lifelong promise';document.querySelector('meta[name="description"]').content=t.heroP;const nav=t.nav.map((n,i)=>`<a href="#${['tentang','proses','aplikasi','wedding'][i]}">${n}</a>`).join('');document.getElementById('app').innerHTML=`
+function render(){disposeMotion();const t=copy[lang];document.documentElement.lang=lang;document.title=lang==='id'?'Mahabbati — Langkah baik, menuju janji suci':'Mahabbati — A thoughtful start, a lifelong promise';document.querySelector('meta[name="description"]').content=t.heroP;const nav=t.nav.map((n,i)=>`<a href="#${['tentang','proses','aplikasi','wedding'][i]}">${n}</a>`).join('');document.getElementById('app').innerHTML=`
 <a class="skip" href="#main">${t.skip}</a>
 <header class="wrap"><div class="header"><a href="#" class="wordmark" aria-label="${t.brandHome}"></a><nav class="nav" aria-label="${lang==='id'?'Navigasi utama':'Main navigation'}">${nav}</nav><div class="nav-actions"><div class="language" role="group" aria-label="${lang==='id'?'Pilih bahasa':'Choose language'}">${ico('globe')}<button type="button" data-lang="id" aria-label="Bahasa Indonesia" aria-pressed="${lang==='id'}">ID</button><span aria-hidden="true">/</span><button type="button" data-lang="en" aria-label="English" aria-pressed="${lang==='en'}">EN</button></div><a class="btn" href="${appUrl}">${t.start} ${ico('arrow')}</a><button class="menu-toggle" aria-label="${t.menu}" aria-expanded="false" aria-controls="mobile-nav">${ico('menu')}</button></div></div><nav id="mobile-nav" class="mobile-nav" aria-label="${lang==='id'?'Navigasi seluler':'Mobile navigation'}">${nav}<a href="${appUrl}">${t.start} ${ico('arrow')}</a></nav></header>
 <main id="main"><div class="wrap"><section class="hero" aria-labelledby="hero-title"><div class="hero-copy"><span class="eyebrow">${ico('heart')}${t.badge}</span><h1 id="hero-title">${t.hero}</h1><p>${t.heroP}</p><div class="hero-buttons"><a class="btn" href="${appUrl}">${t.start} ${ico('arrow')}</a><a class="btn outline" href="#proses">${t.how}</a></div><p class="hero-note">${ico('shield')}${t.note}</p></div><div class="hero-art"><img src="/assets/hero.png" alt="${t.altHero}" width="1536" height="1024" fetchpriority="high"><span class="art-caption">${t.caption}</span></div></section><div class="trust-bar">${t.trust.map((a,i)=>`<span>${ico(['shield','users','lock'][i])}${a}</span>`).join('')}</div></div>
@@ -16,5 +18,77 @@ function render(){const t=copy[lang];document.documentElement.lang=lang;document
 <footer class="footer"><div class="wrap"><div class="footer-grid"><div class="footer-brand"><a class="wordmark" href="#" aria-label="${t.brandHome}"></a><p>${t.footerP}</p></div><div><h3>${t.explore}</h3><ul><li><a href="#tentang">${t.nav[0]}</a></li><li><a href="#proses">${t.nav[1]}</a></li><li><a href="#aplikasi">${t.nav[2]}</a></li><li><a href="#wedding">${t.nav[3]}</a></li><li><a href="#faq">FAQ</a></li></ul></div><div><h3>${t.help}</h3><ul><li><a href="mailto:salam@mahabbati.com">salam@mahabbati.com</a></li><li><a href="https://instagram.com/mahabbati_official">Instagram ${ico('arrow')}</a></li><li><a href="https://wa.me/6282261505350">Wedding organizer ${ico('arrow')}</a></li></ul></div><div><h3>${t.location}</h3><p>Jl. Komp. Bappenas Siaga Raya No. 66<br>Pejaten Barat, Jakarta Selatan<br>Indonesia 12510</p></div></div><div class="footer-bottom"><span>© ${new Date().getFullYear()} Mahabbati. ${t.rights}</span><div><a href="https://www.mahabbati.com/terms">${t.privacy}</a><a href="https://www.mahabbati.com/terms">${t.terms}</a></div></div></div></footer>`;
 document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>{const y=window.scrollY;lang=b.dataset.lang;render();document.querySelector(`[data-lang="${lang}"]`).focus({preventScroll:true});window.scrollTo({top:y,behavior:'instant'});}));
 const toggle=document.querySelector('.menu-toggle'),mobile=document.querySelector('.mobile-nav');const close=()=>{toggle.setAttribute('aria-expanded','false');mobile.classList.remove('open');toggle.innerHTML=ico('menu')};toggle.addEventListener('click',()=>{let open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));mobile.classList.toggle('open',open);toggle.innerHTML=ico(open?'close':'menu')});mobile.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));document.onkeydown=e=>{if(e.key==='Escape'&&mobile.classList.contains('open')){close();toggle.focus()}};
+disposeMotion = setupMotion(!hasRendered);
+hasRendered = true;
 }
 render();
+
+
+// Progressive enhancement: content stays readable even without animation support.
+function setupMotion(animateEntrance) {
+  const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const running = new Set();
+  let observer;
+  let disposed = false;
+  const seen = new WeakSet();
+  const ease = 'cubic-bezier(0.22, 1, 0.36, 1)';
+  const play = (element, delay = 0, distance = 16, duration = 650) => {
+    if (disposed || preference.matches || !element.animate) return;
+    const animation = element.animate([
+      { opacity: 0, transform: `translateY(${distance}px)` },
+      { opacity: 1, transform: 'translateY(0)' }
+    ], { duration, delay, easing: ease, fill: 'backwards' });
+    running.add(animation);
+    const forget = () => running.delete(animation);
+    animation.onfinish = forget;
+    animation.oncancel = forget;
+  };
+  const entrance = [...document.querySelectorAll('.hero-copy > *, .hero-art')];
+  if (animateEntrance) entrance.forEach((el, i) => play(el, Math.min(i * 65, 260), 12, 750));
+  const groups = ['.trust-bar > span', '.intro > *', '.feature-grid > article', '.steps > li', '.app-panel > *', '.wedding > *', '.faq-layout > *', '.closing > *', '.footer-grid > div'];
+  const stagger = new WeakMap();
+  groups.forEach(selector => document.querySelectorAll(selector).forEach((el, i) => stagger.set(el, Math.min(i % 3 * 65, 130))));
+  const targets = [...document.querySelectorAll(groups.join(', ') + ', .section-head, .process-footer')];
+  if ('IntersectionObserver' in window && !preference.matches) {
+    observer = new IntersectionObserver(entries => {
+      entries.forEach(({ target, isIntersecting }) => {
+        if (!isIntersecting || seen.has(target)) return;
+        seen.add(target);
+        observer.unobserve(target);
+        // Do not replay content above the reading position after a language change.
+        if (target.getBoundingClientRect().bottom <= 0) return;
+        play(target, stagger.get(target) || 0);
+      });
+    }, { threshold: 0.08 });
+    targets.forEach(el => {
+      if (!animateEntrance && el.getBoundingClientRect().top < innerHeight) seen.add(el);
+      else observer.observe(el);
+    });
+  }
+  const onFocus = () => {
+    // A keyboard user should never have to wait for a control to fade in.
+    running.forEach(animation => animation.finish());
+  };
+  const onPreference = () => {
+    if (!preference.matches) return;
+    observer?.disconnect();
+    running.forEach(animation => animation.cancel());
+    running.clear();
+  };
+  const detailListeners = [...document.querySelectorAll('.faq-list details')].map(detail => {
+    const onToggle = () => { if (detail.open) play(detail.querySelector('p'), 0, 5, 260); };
+    detail.addEventListener('toggle', onToggle);
+    return () => detail.removeEventListener('toggle', onToggle);
+  });
+  document.addEventListener('focusin', onFocus);
+  preference.addEventListener('change', onPreference);
+  return () => {
+    disposed = true;
+    observer?.disconnect();
+    running.forEach(animation => animation.cancel());
+    running.clear();
+    detailListeners.forEach(remove => remove());
+    document.removeEventListener('focusin', onFocus);
+    preference.removeEventListener('change', onPreference);
+  };
+}
