@@ -47,3 +47,27 @@ Generated with the built-in imagegen tool. Prompt:
 - Content remains visible if animation APIs are unavailable. Observers and event listeners are cleaned up on language changes.
 - Browser verification passed for entrance/reveal timing, no repeat reveals, reduced motion, live preference changes, menu and language interactions, and responsive widths 320–1440px in both languages.
 - Sites label changed to `mahabbati`; the returned URL retains the workspace namespace: https://mahabbati.ridwan-22693.chatgpt.site.
+
+## Editorial redesign inspired by New Genre — 20 September 2026
+
+Reference: https://www.newgenre.studio/
+
+Observed directly in a browser: full-screen atmospheric gradient opening, oversized serif statements, restrained pill actions, generous whitespace, thin dividing lines, and asymmetric editorial rows. The first screen evolves with scrolling before the white content region. The reference's original flower runtime could not be fully verified in the research browser; the Mahabbati botanical interaction is an original implementation rather than a claim of reproducing that runtime.
+
+Adaptation:
+- Full-bleed purple opening and closing, with warm white as the main reading surface and lavender reserved for app imagery and the ta’aruf journey.
+- Original Mahabbati copy and supplied logos, Libre Baskerville/Inter, existing language switching, official CTAs, mobile app previews, wedding service content, and FAQs retained.
+- Two new jasmine outline illustrations crossfade from buds to blossoms, with a restrained rotation/rise synchronized to native scrolling across the six stages. The desktop botanical panel stays in view while the adjacent stages scroll. Mobile and short windows use normal flow to avoid trapping content or overlaps.
+- No reference images, brand assets, proprietary code, or text copied.
+- Reduced-motion mode uses a static fully open flower and removes entrance/scroll movement. No scroll interception or infinite animation.
+
+Verification:
+- Browser checks across seven widths (320, 375, 390, 580, 768, 1024, 1440) in Indonesian and English: no page overflow or broken images; no JavaScript errors.
+- Screenshots reviewed for desktop, mobile, hero, and flower scroll positions.
+- Confirmed stage indicator moves 01 → 03 → 06, flower blend changes, and transforms follow scroll; the desktop flower stays within the viewport during the inspected stages.
+- Reduced-motion changes, menu/Escape, FAQ, language switching, and 200% text enlargement checked.
+- axe AA checks at 390 and 1440 in both languages found no violations. Gradient backgrounds require separate contrast verification; conservative solid substitutions are used to test their worst-case colors.
+
+New generated assets (built-in imagegen):
+- `dist/assets/jasmine-bud.png`: original portrait jasmine sprig, two curved stems, elongated leaves and three closed flower buds; dark purple #45445E outlines, sparse lavender #C9CFF2 fills, transparent background, airy editorial botanical art, no text or 3D.
+- `dist/assets/jasmine-bloom.png`: matching original portrait sprig with three open five-petal blossoms; the same line-art palette, transparency, and constraints.
